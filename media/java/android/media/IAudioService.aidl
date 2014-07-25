@@ -218,6 +218,18 @@ interface IAudioService {
 
     void setVolumePolicy(in VolumePolicy policy);
 
+    void setRemoteControlClientBrowsedPlayer();
+
+    void getRemoteControlClientNowPlayingEntries();
+
+    void setRemoteControlClientPlayItem(long uid, int scope);
+
+    void updateRemoteControllerOnExistingMediaPlayers();
+
+    void addMediaPlayerAndUpdateRemoteController(String packageName);
+
+    void removeMediaPlayerAndUpdateRemoteController(String packageName);
+
     /**
      * Internal TeamEos api to protect Pulse
      * @hide
