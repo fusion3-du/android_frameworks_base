@@ -4731,6 +4731,12 @@ public final class Settings {
         public static final String VOLUME_DIALOG_TIMEOUT = "volume_dialog_timeout";
 
         /**
+         * Navbar Button Color
+         * @hide
+         */
+        public static final String NAVBAR_BUTTON_COLOR = "navbar_button_color";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
@@ -6072,6 +6078,15 @@ public final class Settings {
         public static final String LOCK_PATTERN_VISIBLE = "lock_pattern_visible_pattern";
 
         /**
+         * Disable checking for running overlays during permission changes
+         * running OmniSwitch will trigger this and we want to give people
+         * possibility to make it easier on demand
+         *
+         * @hide
+         */
+        public static final String PACKAGE_INSTALL_OVERLAY_CHECK_DISABLED = "package_install_overlay_check_disabled";
+
+        /**
          * Whether lock pattern will vibrate as user enters (0 = false, 1 =
          * true)
          *
@@ -7105,6 +7120,12 @@ public final class Settings {
         public static final String NAVIGATION_BAR_VISIBLE = "navigation_bar_visible";
 
         /**
+         * Disable hw buttons - actions, brightness, haptic feedback, overflow menu
+         * @hide
+         */
+        public static final String HARDWARE_KEYS_DISABLE = "hardware_keys_disable";
+
+        /**
          * Three Finger Gesture from Oppo
          * @hide
          */
@@ -7585,6 +7606,12 @@ public final class Settings {
          * @hide
          */
         public static final String FLING_LONGSWIPE_THRESHOLD_DOWN_LAND = "fling_longswipe_threshold_down_land";
+
+        /**
+         * Navbar buttons transparency
+         * @hide
+         */
+        public static final String NAVBAR_BUTTONS_ALPHA = "navbar_buttons_alpha";
 
         /**
          * This are the settings to be backed up.
